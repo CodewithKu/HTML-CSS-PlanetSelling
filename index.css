@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/image/Background.jpg");
+}
+
+header{
+    
+    padding: 50px 14px 14px 14px ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 3px solid black;
+    height: 50px;
+    width: 100%;
+
+}
+
+ul{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 40%;
+    
+}
+ 
+
+ul li a{
+    padding: 15px;
+    text-decoration:  none;
+    font-size: 20px;
+    color: rgb(226, 223, 223);
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.signup{
+    border: 3px solid white;
+    
+    border-radius: 50px;
+    background-color: rgb(47, 205, 233);
+    color: rgb(226, 223, 223);
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+.signup:hover{
+    border: 3px solid rgb(47, 205, 233);
+    
+    border-radius: 50px;
+    background-color: black;
+    color: rgb(47, 205, 233);
+    justify-content: center;
+}
+main{
+margin: 2px;
+
+}
+.content{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.section1{
+    flex: 1;
+    font-size: 30px ;
+    color: rgb(226, 223, 223) ;
+    text-decoration: underline;
+}
+.section2{
+    flex: 3;
+    font-size: 28px;
+    color: rgb(226, 223, 223);
+}
+.section3{
+    flex:1;
+    padding-left: 40px;
+}
+.Buy{
+    border-radius: 30%;
+    border-color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+    background-color:#494747 ;
+    color: rgb(226, 223, 223);
+    font-size: 20px;
+    font-weight: 12px;
+    text-transform: uppercase;
+    display: flex;
+    
+
+}
+
+.Buy:hover{
+color: #494747 ;
+background-color: white;
+}
